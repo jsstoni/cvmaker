@@ -1,0 +1,66 @@
+@import './base.css';
+
+.d-flex {
+    display: flex;
+}
+
+.sidebar {
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0 0 7px #ddd;
+    background: #fff;
+}
+
+.content {
+    padding: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 9px;
+}
+
+.title {
+    background: #f5f5fc;
+    font-weight: bold;
+    color: #777;
+    padding: 25px 30px;
+    margin: 10px -30px;
+    display: flex;
+}
+
+.title i {
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sidebar .d-flex {
+    border-bottom: var(--color-primary) solid 1px;
+    padding: 15px 0;
+}
+
+.sidebar h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cols {
+    display: flex;
+    margin: 0 -10px;
+}
+.cols div {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.content label {
+    font-size: 11px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
